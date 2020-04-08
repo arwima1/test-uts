@@ -27,7 +27,12 @@ public class Crud {
         mhs.setJurusan("Teknik Mesin");
         mhs.setAlamat("Kayuringin Jaya");
         mhs.setNo_tlp("081297391775");
-//        
+        mhs.setNim("002");
+        mhs.setNama("Arya wijaya kusuma");
+        mhs.setJurusan("Teknik Informatika");
+        mhs.setAlamat("Kayuringin Jaya");
+        mhs.setNo_tlp("08129739100");
+        
         Mahasiswa_ctrl ctrl = new Mahasiswa_ctrl(mhs);
         
         ctrl.saveData();
